@@ -1,0 +1,16 @@
+{
+  "name": "bun-app",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "@types/pg": "^8.10.9"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
